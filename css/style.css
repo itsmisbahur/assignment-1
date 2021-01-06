@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    overflow: auto;
+}
+#header ul {
+    float: right;
+}
+#header ul li {
+    list-style: none;
+    float: left;
+}
+#header ul li a {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #3C3C3C;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 37px;
+    margin-left: 40px;
+}
+.float-block {
+    overflow: auto;
+}
+.half-width {
+    width: 50%;
+    float: left;
+}
+.half-width img {
+    width: 80%;
+}
+.content-block {
+    margin-top: 90px;
+}
+.highlighter {
+    color: #FF8367;
+}
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+.sub-title {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 30px;
+
+}
+.descrip {
+    width: 320px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+    margin-bottom: 40px;
+}
+.btn {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    background: linear-gradient(#F46060, #FF8063);
+    padding: 20px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+#about {
+    margin-bottom: 75px;
+}
+#about .descrip {
+    width: 95%;
+}
+#about .content-block {
+    padding-left: 100px;
+}
+
+
+#portfolio {
+    background: #E5E5E5;
+    padding-top: 125px;
+    padding-bottom: 180px;
+}
+#portfolio .sub-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.portfolio-card {
+    display: inline-block;
+    padding: 16px;
+    width: 370px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-right: 26px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+.portfolio-card:last-child {
+    margin-right: 0;
+}
+.portfolio-card img {
+    width: 100%;
+}
+.card-info {
+    padding: 6px;
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #363958;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card-des {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-bottom: 15px;
+}
+#cta-section {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.work-inquiry {
+    width: 900px;
+    height: 224px;
+    background-image: url(../img/inquary-bg.png);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    padding: 80px 75px;
+    overflow: auto;
+    margin-bottom: 95px;
+}
+.inquiry-title {
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    color: #fff;
+}
+.work-inquiry .btn {
+    float: right;
+}
+.social-title {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #696871;
+    margin-bottom: 20px;
+}
+.email {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 700;
+    text-decoration: none;
+    color: #363958;
+    margin-bottom: 20px;
+}
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    margin: 0 13px;
+}
